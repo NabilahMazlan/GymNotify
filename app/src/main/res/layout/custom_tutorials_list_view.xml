@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewTutorials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Benchpress"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <WebView
+        android:id="@+id/wvTutorials"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+    </WebView>
+
+</LinearLayout>
